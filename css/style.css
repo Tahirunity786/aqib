@@ -81,6 +81,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .divider-contact {
     display: block;
     margin: auto;
@@ -90,6 +91,7 @@
     margin-top: 20px;
     margin-bottom: 100px;
 }
+
 .divider-faq {
     display: block;
     margin: auto;
@@ -100,7 +102,7 @@
     margin-bottom: 50px;
 }
 
-.req-a{
+.req-a {
     background-color: rgb(245, 198, 69);
     color: black;
     padding: 20px 100px;
@@ -109,31 +111,124 @@
     align-items: center;
     border-radius: 10px;
     transition: 0.3s all ease-in-out;
-  
+
 }
-.req-a:hover{
+
+.req-a:hover {
     background-color: rgb(248, 189, 27);
 }
 
 
 /* ######################## CONTACT ######################## */
 
-.btn-a2{
+.btn-a2 {
     background-color: rgb(245, 198, 69);
     color: black;
     padding: 10px 50px;
     transition: 0.3s all ease-in-out;
 }
-.btn-a2:hover{
+
+.btn-a2:hover {
     background-color: rgb(248, 189, 27);
 }
-.btn-f{
+
+.btn-f {
     height: 70px;
 }
 
 
 /* ######################## CONTACT ######################## */
 
-.w-f{
+.w-f {
     width: 50%;
+}
+
+/* ######################## Detail Page ######################## */
+
+.det-btn {
+    background-color: rgb(245, 198, 69);
+    border: 4px solid rgb(151, 151, 151);
+    transition: 0.2s all ease-in-out;
+}
+.det-btn:hover {
+    background-color: rgb(248, 189, 27);
+}
+.det-btn-2{
+    background-color: transparent;
+    border: 4px solid rgb(151, 151, 151);
+    transition: 0.2s all ease-in-out;
+}
+.det-btn-2:hover{
+    color: rgb(53, 53, 53);
+}
+
+
+.slider {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider .slide {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+  }
+  
+  .slider .item {
+    margin-right: 10px;
+  }
+  
+  .slider .item:last-child {
+    margin-right: 0;
+  }
+  
+  .ctrl {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .ctrl-btn {
+    padding: 20px 20px;
+    min-width: 50px;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+  }
+  
+  .ctrl-btn.pro-prev {
+    left: 0;
+  }
+  
+  .ctrl-btn.pro-next {
+    right: 0;
+  }
+  
+.btna{
+    background-color: rgb(245, 198, 69);
+    color: black;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
 }
